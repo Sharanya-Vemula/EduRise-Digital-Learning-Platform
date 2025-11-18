@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="6dp"
+    android:background="@color/teacher_item_bg"
+    android:elevation="1dp"
+    android:gravity="center_vertical">
+
+    <!-- Class / Section / Subject Info -->
+    <TextView
+        android:id="@+id/classText"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Class - Section (Subject)"
+        android:textSize="16sp"
+        android:textColor="@color/teacher_item_text"/>
+
+    <!-- Notify Checkbox -->
+    <CheckBox
+        android:id="@+id/notifyCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify"
+        android:textColor="@color/teacher_item_text"
+        android:buttonTint="@color/teacher_checkbox_tint"/>
+</LinearLayout>

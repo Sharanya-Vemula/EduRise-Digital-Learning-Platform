@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_add"
+        android:title="Add Data"
+        android:icon="@drawable/ic_check" />
+
+    <item
+        android:id="@+id/nav_assign"
+        android:title="Class Assignment"
+        android:icon="@drawable/ic_class" />
+
+    <item
+        android:id="@+id/create_tt"
+        android:title="Class Time table"
+        android:icon="@drawable/ic_schedule" />
+    <item
+        android:id="@+id/announce"
+        android:title="Send Announcements"
+        android:icon="@drawable/ic_notifications" />
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+
+    <Spinner
+        android:id="@+id/subjectSpinnerRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <Spinner
+        android:id="@+id/teacherSpinnerRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginStart="4dp" />
+
+    <EditText
+        android:id="@+id/startTimeRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Start"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="4dp"/>
+
+    <EditText
+        android:id="@+id/endTimeRow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="End"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="4dp"/>
+
+    <ImageButton
+        android:id="@+id/removePeriodRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:contentDescription="Remove"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginStart="4dp"/>
+
+</LinearLayout>

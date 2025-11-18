@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/student_notification_bg"
+    android:elevation="2dp">
+
+    <!-- Notification Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Title"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/student_notification_title" />
+
+    <!-- Notification Message -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification message goes here."
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/student_notification_message" />
+
+    <!-- Source and Timestamp -->
+    <TextView
+        android:id="@+id/tvSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Teacher • 08 Nov 2025, 10:45 AM"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/student_notification_source" />
+</LinearLayout>

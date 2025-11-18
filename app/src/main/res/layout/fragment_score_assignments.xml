@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teacher_fragment_bg">
+
+    <!-- Select Class -->
+    <TextView
+        android:text="Select Class:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/teacher_text_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/classSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_spinner_teacher"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Select Assignment -->
+    <TextView
+        android:text="Select Assignment:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/teacher_text_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/assignmentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_spinner_teacher"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Student List -->
+    <ListView
+        android:id="@+id/studentList2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/teacher_card_bg"
+        android:dividerHeight="8dp"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

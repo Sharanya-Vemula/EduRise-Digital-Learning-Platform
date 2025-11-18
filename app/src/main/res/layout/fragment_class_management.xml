@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/classManagementRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/teacher_fragment_bg"
+    tools:context=".ClassManagementFragment">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Management and Notifications"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"
+        android:textColor="@color/teacher_text_primary" />
+
+    <!-- Notification Title -->
+    <EditText
+        android:id="@+id/notificationTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Notification Title"
+        android:inputType="textCapSentences"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/rounded_edittext_teacher"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Notification Message -->
+    <EditText
+        android:id="@+id/notificationMessageEdit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Notification Message"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"
+        android:gravity="top"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/rounded_edittext_teacher"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView Label -->
+    <TextView
+        android:id="@+id/classListLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Classes to Notify:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/teacher_text_secondary" />
+
+    <!-- RecyclerView for class list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/classRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        android:background="@color/teacher_card_bg" />
+
+    <!-- Send Notification Button -->
+    <Button
+        android:id="@+id/sendNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Send Notification"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teacher_button"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

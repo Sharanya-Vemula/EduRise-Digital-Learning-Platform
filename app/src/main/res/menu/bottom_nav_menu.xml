@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/nav_classes" android:title="Assigned Classes" android:icon="@drawable/ic_class"/>
+   <item android:id="@+id/nav_timetable" android:title="View Timetable" android:icon="@drawable/ic_schedule"/>
+    <item android:id="@+id/nav_attendance" android:title="Mark Attendance" android:icon="@drawable/ic_check"/>
+    <item android:id="@+id/nav_content" android:title="Upload Content" android:icon="@drawable/ic_upload"/>
+    <item android:id="@+id/nav_progress" android:title="Score Assignments" android:icon="@drawable/ic_chart"/>
+</menu>

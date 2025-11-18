@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pastel_bg">#FFF9F9F9</color>
+    <color name="pastel_card">#FFFDFDFD</color>
+    <color name="pastel_button">#A8D5BA</color>
+    <color name="pastel_border">#D8D8D8</color>
+    <color name="pastel_text">#7C7C7C</color>
+    <color name="pastel_icon">#A0BFA6</color>
+    <color name="theme_bg">#FFF0F4F8</color>          <!-- Soft light cream -->
+    <color name="theme_card">#FFFFFFFF</color>        <!-- White card -->
+    <color name="theme_button">#5DB8AD</color>       <!-- Soft teal -->
+    <color name="theme_text">#2E3A59</color>         <!-- Dark text -->
+    <color name="theme_text_secondary">#5E6D7A</color> <!-- Secondary text -->
+    <color name="theme_border">#D0D7DE</color>
+    <color name="theme_icon">#5DB8AD</color><!-- Light gray borders -->
+
+    <color name="admin_btn_primary">#FF5722</color>   <!-- Vibrant orange -->
+    <color name="admin_btn_secondary">#03A9F4</color> <!-- Blue for secondary buttons -->
+
+
+    <color name="teacher_toolbar">#1565C0</color>          <!-- Deep blue -->
+    <color name="teacher_bottom_nav_bg">#FFFFFF</color>     <!-- White nav background -->
+    <color name="teacher_bottom_nav_icon">#FF7043</color>   <!-- Coral icons -->
+    <color name="teacher_card_bg">#E3F2FD</color>          <!-- Light blue cards for fragments -->
+    <color name="teacher_text_primary">#1A237E</color>     <!-- Dark blue text -->
+    <color name="teacher_text_secondary">#FF7043</color>   <!-- Coral accents -->
+
+    <color name="teacher_fragment_bg">#E8F5FD</color>       <!-- Light vibrant background --><!-- Coral accent for labels -->
+    <color name="teacher_button">#FF7043</color>
+
+    <color name="teacher_bg">#FFF8E1</color>        <!-- Light vibrant background -->
+    <color name="teacher_divider">#FFCC80</color>   <!-- Soft divider -->
+    <color name="teacher_day_bg">#FFB74D</color>    <!-- Day item background -->
+    <color name="teacher_day_text">#212121</color>  <!-- Day text color --><!-- Vibrant background -->
+    <color name="teacher_primary">#FF7043</color>  <!-- Buttons, headers -->
+    <color name="teacher_text">#212121</color>     <!-- Main text -->
+    <color name="teacher_border">#FFB74D</color>  <!-- EditText/Spinner border -->
+
+    <!-- Coral button -->
+    <color name="admin_toolbar_vibrant">#FF6F00</color> <!-- Bright orange -->
+    <color name="admin_bottom_nav_vibrant">#FF8F00</color> <!-- Slightly lighter orange -->
+    <color name="admin_fragment_bg">#FFFFFF</color> <!-- Card background -->
+
+        <!-- Background Gradient Colors -->
+        <color name="student_bg_start">#FFDEE9</color>  <!-- Light Pink -->
+        <color name="student_bg_end">#B5FFFC</color>    <!-- Light Turquoise -->
+    <!-- White card background -->
+    <color name="teacher_item_text">#212121</color>        <!-- Dark text -->
+    <color name="teacher_checkbox_tint">#FF5722</color>    <!-- Orange checkbox -->
+
+
+    <!-- Toolbar -->
+        <color name="student_toolbar_bg">#FF7EB9</color>  <!-- Vibrant Pink/Purple -->
+        <color name="student_toolbar_title">#FFFFFF</color> <!-- White text for toolbar -->
+    <!-- light vibrant background -->
+    <color name="admin_button_bg">#FF9800</color>   <!-- orange buttons -->
+    <!-- Toolbar color if used -->
+
+
+
+
+    <!-- Bottom Navigation -->
+        <color name="student_bottom_nav_bg">#FFFFFF</color> <!-- White background -->
+        <color name="student_bottom_nav_icon">#FF7EB9</color> <!-- Vibrant pink for icons/text -->
+
+        <!-- Cards / Containers -->
+        <color name="student_card_bg">#FFFFFF</color> <!-- White cards for content -->
+        <color name="student_card_shadow">#33000000</color> <!-- Subtle shadow overlay -->
+
+        <!-- Text Colors -->
+        <color name="student_text_primary">#333333</color>  <!-- Dark text for readability -->
+        <color name="student_text_secondary">#666666</color> <!-- Secondary text -->
+
+        <!-- Buttons -->
+        <color name="student_button_bg">#FF7EB9</color>  <!-- Same vibrant pink as toolbar -->
+        <color name="student_button_text">#FFFFFF</color> <!-- White text -->
+
+        <!-- Inputs / EditTexts -->
+        <color name="student_input_bg">#FFFFFF</color>
+        <color name="student_input_hint">#999999</color>
+
+
+            <!-- Top Greeting Bar / Toolbar -->
+
+        <color name="student_toolbar_text">#FFFFFF</color> <!-- White text for greeting -->
+        <color name="student_toolbar_text_secondary">#FFE0F0</color> <!-- Lighter text for subtext -->
+
+
+
+        <!-- Dashboard background -->
+        <color name="student_dashboard_bg_start">#FFDEE9</color>  <!-- Gradient start -->
+        <color name="student_dashboard_bg_end">#B5FFFC</color>    <!-- Gradient end -->
+
+
+        <!-- Notification text colors -->
+        <color name="student_notification_title">#1A237E</color>         <!-- Dark Indigo -->
+        <color name="student_notification_message">#424242</color>       <!-- Dark Gray -->
+        <color name="student_notification_source">#00796B</color>        <!-- Teal Accent -->
+
+        <!-- Background -->
+        <color name="student_profile_bg">#FAFAFA</color>
+
+        <!-- Heading -->
+        <color name="student_profile_heading">#000000</color>
+
+    <!-- Divider -->
+    <color name="student_divider_color">#DDDDDD</color>
+
+    <!-- Days -->
+    <color name="student_day_text">#000000</color>
+    <color name="student_day_selected">#1E88E5</color>      <!-- Blue for selected day -->
+    <color name="student_day_unselected">#E0E0E0</color>    <!-- Light gray for unselected day -->
+
+    <!-- Timetable items will inherit white background and subtle elevation -->
+    <color name="student_timetable_item_bg">#FFFFFF</color>
+
+    <color name="student_timetable_subject">#000000</color> <!-- Black -->
+
+    <!-- Timetable Time -->
+    <color name="student_timetable_time">#666666</color> <!-- Dark Gray -->
+
+    <!-- Teacher Name -->
+    <color name="student_timetable_teacher">#1E88E5</color> <!-- Blue -->
+    <color name="teacher_item_bg">#FFFFFF</color>
+
+    <!-- Subject Name -->
+    <color name="teacher_subject_text">#1B1B1B</color> <!-- Dark black -->
+
+    <!-- Class Time -->
+    <color name="teacher_time_text">#555555</color> <!-- Gray -->
+
+    <!-- Class & Section -->
+    <color name="teacher_class_text">#0277BD</color> <!-- Blue -->
+
+
+        <!-- Admin Dashboard -->
+        <color name="admin_bg">#F4F6F8</color> <!-- Light neutral background -->
+        <color name="admin_toolbar_bg">#2C3E50</color> <!-- Dark blue/gray -->
+        <color name="admin_toolbar_text">#FFFFFF</color> <!-- White title text -->
+        <color name="admin_bottom_nav_bg">#FFFFFF</color> <!-- White bottom nav -->
+        <color name="admin_bottom_nav_icon">#2C3E50</color> <!-- Dark icon and text -->
+        <color name="admin_card_bg">#FFFFFF</color> <!-- Cards in admin fragments -->
+        <color name="admin_card_shadow">#B0B0B0</color> <!-- Card elevation shadow -->
+
+
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    android:background="@drawable/admin_dashboard_bg"> <!-- Gradient background -->
+
+    <!-- Top App Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/adminTopAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:backgroundTint="@color/admin_toolbar_vibrant"
+        android:elevation="6dp"
+        app:title="Admin Dashboard"
+        app:titleCentered="true"
+        app:titleTextColor="@color/admin_toolbar_text" />
+
+    <!-- Fragment Container with card-like style -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/admin_bg_image"
+        android:elevation="4dp" />
+
+    <!-- Bottom Navigation with vibrant accent -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/admin_bottom_nav_vibrant"
+        app:itemIconTint="@color/admin_bottom_nav_icon"
+        app:itemTextColor="@color/admin_bottom_nav_icon"
+        app:menu="@menu/admin_bottom_nav" />
+</LinearLayout>

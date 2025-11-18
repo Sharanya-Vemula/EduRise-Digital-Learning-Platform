@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046395479493",
+    "project_id": "digitallearningplatform-f68a3",
+    "storage_bucket": "digitallearningplatform-f68a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046395479493:android:b3a796311927cdaa2817ac",
+        "android_client_info": {
+          "package_name": "com.example.digitallearningplatform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUck_InEruaD9qXzeehfwUoYz_GHF_LLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/student_dashboard_bg"
+    android:elevation="3dp">
+
+    <!-- Assignment Title -->
+    <TextView
+        android:id="@+id/contentTitle"
+        android:text="Assignment Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/teacher_class_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Subject -->
+    <TextView
+        android:id="@+id/contentSubject"
+        android:text="Subject"
+        android:textSize="14sp"
+        android:textColor="@color/teacher_class_text"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Score Status -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:text="Not Scored Yet"
+        android:textSize="14sp"
+        android:textColor="@color/student_notification_message"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/viewButton"
+            android:text="View"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/student_button_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/student_button_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:fillViewport="true"
+    android:background="@color/teacher_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Card container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="4dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:backgroundTint="@color/teacher_card_bg">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Heading -->
+                <TextView
+                    android:id="@+id/titleText"
+                    android:text="Upload Class Content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@color/teacher_text_primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!-- Assigned Class -->
+                <TextView
+                    android:text="Select Assigned Class"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/teacher_text_secondary" />
+
+                <Spinner
+                    android:id="@+id/assignmentSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_spinner" />
+
+                <!-- Assignment Name -->
+                <EditText
+                    android:id="@+id/assignmentNameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Enter Assignment Name"
+                    android:inputType="textCapSentences"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <!-- Upload Type -->
+                <TextView
+                    android:text="Select Upload Type"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/teacher_text_secondary" />
+
+                <RadioGroup
+                    android:id="@+id/uploadTypeRadio"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioFile"
+                        android:checked="true"
+                        android:text="File"
+                        android:textColor="@color/teacher_text_primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radioLink"
+                        android:text="Link"
+                        android:textColor="@color/teacher_text_primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp" />
+                </RadioGroup>
+
+                <Spinner
+                    android:id="@+id/typeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/content_types"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/rounded_spinner" />
+
+                <!-- Link input -->
+                <EditText
+                    android:id="@+id/linkInput"
+                    android:hint="Paste online content link"
+                    android:visibility="gone"
+                    android:inputType="textUri"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <!-- File selection -->
+                <Button
+                    android:id="@+id/selectFileButton"
+                    android:text="Select File"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/teacher_button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <!-- Instructions -->
+                <EditText
+                    android:id="@+id/instructionInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter instructions (optional)"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:padding="12dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_edittext" />
+
+                <!-- Deadline -->
+                <Button
+                    android:id="@+id/deadlineButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set Deadline"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/teacher_button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/deadlineText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No deadline selected"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@android:color/darker_gray" />
+
+                <!-- Upload button -->
+                <Button
+                    android:id="@+id/uploadButton"
+                    android:text="Upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/teacher_button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <!-- Status -->
+                <TextView
+                    android:id="@+id/statusMessage"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DigitalLearningPlatform</string>
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Staff</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="content_types">
+        <item>Learning Material</item>
+        <item>Assignment</item>
+    </string-array>
+
+</resources>

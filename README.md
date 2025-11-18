@@ -95,14 +95,11 @@
 ### Teacher Dashboard Screens
 
 ![WhatsApp Image 2025-11-10 at 10 39 26 AM](https://github.com/user-attachments/assets/c8561475-f802-457a-ad6b-1e8f10530ece) ![WhatsApp Image 2025-11-10 at 10 39 26 AM (3)](https://github.com/user-attachments/assets/c6832a7d-2a06-4820-8f62-aa81c1331480) 
-<img width="286" height="362" alt="image" src="https://github.com/user-attachments/assets/ffdbaf8f-18d5-49a8-b0fb-5242b1bf2873" />
 
 
 ### Student Dashboard Screens
 
 ![WhatsApp Image 2025-11-10 at 10 39 26 AM (4)](https://github.com/user-attachments/assets/7881e05e-6924-41cc-b483-3895e9b6439c)  ![WhatsApp Image 2025-11-10 at 10 39 26 AM (1)](https://github.com/user-attachments/assets/7fb11265-fc3c-4e1d-8a45-9f42dfac9085) 
-<img width="303" height="344" alt="image" src="https://github.com/user-attachments/assets/1484e01c-a8c3-407c-a9be-f695ce22db7d" />
-
 
 
 
